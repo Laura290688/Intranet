@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+}
+
+#main_container{
+  background-color: rgb(30, 40, 131);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+ 
+}
+#in_first_container{
+  background-color: rgb(30, 40, 131);
+}
+
+#in_second_container{   
+  display: flex;
+  background-color: rgb(30, 40, 131);
+  width: 100%;
+  justify-content: space-around;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+#image{
+ 
+
+ 
+}
+
+#image_container {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  gap: 20px;
+  grid-template-rows: 80px 80px 80px
+  align-items: center;
+  
+}
